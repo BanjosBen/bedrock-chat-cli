@@ -9,8 +9,8 @@ Type a message and receive a response generated via Bedrock's `/converse` API in
 ## Setup
 
 ```bash
-git clone https://github.com/yourname/llama3-bot.git
-cd llama3-bot
+git clone https://(https://github.com/BanjosBen/bedrock-chat-cli.git
+cd bedrock-chat-cli
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
