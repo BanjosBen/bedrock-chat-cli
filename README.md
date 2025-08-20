@@ -9,7 +9,7 @@ Type a message and receive a response generated via Bedrock's `/converse` API in
 ## Setup
 
 ```bash
-git clone https://(https://github.com/BanjosBen/bedrock-chat-cli.git
+git clone https://github.com/BanjosBen/bedrock-chat-cli.git
 cd bedrock-chat-cli
 python3 -m venv venv
 source venv/bin/activate
