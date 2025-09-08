@@ -7,7 +7,7 @@ from typing import Any, Dict, List
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BEARER_TOKEN = "ABSKQmVkcm9ja0FQSUtleS05ZTI1LWF0LTA4OTk5NDMxMjgxNTpJbnpGSHZ1c2RaYWg5bHJHNUk5bzlKVXdHcmNpcWJIaTRCbDBKeFlYMlVpM0FRRDhnMWJSSkFjbFdIST0="
+BEARER_TOKEN = "ABSKQmVkcm9ja0FQSUtleS05ZTI1KzEtYXQtMDg5OTk0MzEyODE1OkxwRTRYd3o3U3VaRjNHMDNudU55MndXSCtmQzAzYnRjWUlsQ2p1R3VhZlNxSkc3MzhwN2ovYVRKME5jPQ=="
 
 class BedrockClient:
     def __init__(self, region: str = "us-east-1"):
