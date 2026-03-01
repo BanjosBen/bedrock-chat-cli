@@ -27,7 +27,7 @@ class BedrockClient:
             return data.get("output", {}).get("message", {}).get("content", [{}])[0].get("text", "")
         except Exception as e:
             logger.error("Bedrock call failed: %s", e)
-            return "Oops, something went wrong."
+            return "Oops, something went wrong"
 
 if __name__ == "__main__":
     user_msg = input("You: ").strip()
